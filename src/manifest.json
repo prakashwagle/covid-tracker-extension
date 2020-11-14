@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Covid Tracker Extension",
+  "version": "1.0",
+  "description": "Display covid stats of a given location",
+  "icons": { "32": "icons/covid-image-32.png" },
+  "browser_action": {
+    "default_icon": "icons/covid-image-32.png",
+    "default_title": "Covid Tracker",
+    "default_popup": "popup/tracker.html"
+  },
+  "permissions": ["*://api.covidtracking.com/v1/*", "activeTab"]
+}
